@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yourusername.github.io/alifonlineacademy/sitemap.xml
+
+# Note: Replace the URL above with your actual GitHub Pages URL
+# Or your custom domain URL if you have one
+
+
+
+
+
+
