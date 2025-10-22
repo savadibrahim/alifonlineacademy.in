@@ -131,7 +131,7 @@
 │  │ admin@alifacademy.in   │  │ Email: __________________       ││      │
 │  │                        │  │ Phone: __________________       ││      │
 │  │ 📱 WhatsApp            │  │ Course: [dropdown]              ││      │
-│  │ +91 7994 203 559       │  │ Category: [dropdown]            ││      │
+│  │ +91 8078 252 610       │  │ Category: [dropdown]            ││      │
 │  │                        │  │ Message: ___________________    ││      │
 │  │ ⏰ Working Hours       │  │                                 ││      │
 │  │ Mon-Fri: 8AM - 8PM     │  │ [Submit Enrollment]             ││      │

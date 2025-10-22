@@ -89,7 +89,7 @@ git push -u origin main
 ### 1. Update Contact Info
 Open `index.html` and search for:
 - `admin@alifonlineacademy.in` → Your current email (update if needed)
-- `+91 7994 203 559` → Your current phone number (update if needed)
+- `+91 8078 252 610` → Your current phone number (update if needed)
 
 ### 2. Change Colors
 Open `styles.css` (lines 7-15) and modify:

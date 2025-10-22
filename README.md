@@ -139,7 +139,7 @@ This website template is free to use for educational and non-commercial purposes
 
 For questions or support regarding the website, please contact:
 - Email: admin@alifonlineacademy.in
-- WhatsApp: +91 7994 203 559
+- WhatsApp: +91 8078 252 610
 
 ---
 
