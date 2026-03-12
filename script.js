@@ -140,6 +140,35 @@ document.querySelectorAll('.gallery-item img').forEach(img => {
     img.loading = 'lazy';
 });
 
+// Auto-slide for courses section (2 cards at a time)
+const coursesGrid = document.querySelector('.courses-grid');
+if (coursesGrid) {
+    let isCoursesHovered = false;
+
+    coursesGrid.addEventListener('mouseenter', () => {
+        isCoursesHovered = true;
+    });
+
+    coursesGrid.addEventListener('mouseleave', () => {
+        isCoursesHovered = false;
+    });
+
+    const autoSlideCourses = () => {
+        if (isCoursesHovered) return;
+
+        const visibleWidth = coursesGrid.clientWidth;
+        const maxScrollLeft = coursesGrid.scrollWidth - visibleWidth;
+
+        if (coursesGrid.scrollLeft >= maxScrollLeft - 5) {
+            coursesGrid.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            coursesGrid.scrollBy({ left: visibleWidth, behavior: 'smooth' });
+        }
+    };
+
+    setInterval(autoSlideCourses, 5000);
+}
+
 // Add parallax effect to hero section
 window.addEventListener('scroll', () => {
     const hero = document.querySelector('.hero');
