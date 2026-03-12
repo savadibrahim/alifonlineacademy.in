@@ -140,21 +140,6 @@ document.querySelectorAll('.gallery-item img').forEach(img => {
     img.loading = 'lazy';
 });
 
-// Position announcement bar directly below navbar
-window.addEventListener('load', () => {
-    const navbar = document.querySelector('.navbar');
-    const announcementBar = document.querySelector('.announcement-bar');
-    if (navbar && announcementBar) {
-        const setAnnouncementTop = () => {
-            const navHeight = navbar.offsetHeight;
-            announcementBar.style.top = `${navHeight}px`;
-        };
-
-        setAnnouncementTop();
-        window.addEventListener('resize', setAnnouncementTop);
-    }
-});
-
 // Add parallax effect to hero section
 window.addEventListener('scroll', () => {
     const hero = document.querySelector('.hero');
