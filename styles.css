@@ -404,24 +404,9 @@ section {
 }
 
 .courses-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    overflow-x: auto;
-    padding-bottom: 1rem;
-    scroll-snap-type: x mandatory;
-}
-
-.courses-grid::-webkit-scrollbar {
-    height: 8px;
-}
-
-.courses-grid::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.courses-grid::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-    border-radius: 4px;
 }
 
 .course-card {
@@ -432,9 +417,6 @@ section {
     transition: all 0.3s ease;
     position: relative;
     border: 2px solid transparent;
-    flex: 0 0 calc(50% - 1rem);
-    min-width: calc(50% - 1rem);
-    scroll-snap-align: start;
 }
 
 .course-card:hover {
