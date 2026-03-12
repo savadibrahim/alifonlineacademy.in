@@ -54,8 +54,16 @@ body {
 
 .logo {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 128px;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 128px;
+    width: auto;
+    display: block;
 }
 
 .logo-arabic {
@@ -396,7 +404,7 @@ section {
 
 .courses-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
 }
 
